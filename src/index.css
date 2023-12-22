@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+.main-header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 1.8rem;
+  font-size: 2rem;
+}
+
+.main-header nav ul {
+  display: flex;
+  list-style: none;
+  gap: .4rem;
+}
